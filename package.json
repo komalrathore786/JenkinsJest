@@ -1,22 +1,13 @@
 {
   "name": "jenkinsJest",
-  "version": "1.0.0",
-  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.",
-  "main": "index.js",
   "scripts": {
     "start": "webpack",
-    "test": "jest --coverage --coverageDirectory=output/coverage/jest/cobertura-coverage.xml"
+    "test": "jest --coverage --coverageDirectory=output/coverage/jest"
   },
   "jest": {
     "coverageReporters": [
       "text",
       "cobertura"
     ]
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jest": "^26.4.2"
   }
 }
